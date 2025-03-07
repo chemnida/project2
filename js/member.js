@@ -8,4 +8,5 @@ document.getElementById("signupBtn").addEventListener("click", async()=>{
     const response = await axios.post("http://localhost:8080/getAllProducts", data);
 
     alert(response.data);
+    //dd
 });
